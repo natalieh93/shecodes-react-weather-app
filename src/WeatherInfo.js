@@ -1,6 +1,6 @@
 import React from "react";
-import WeatherIcon from "./WeatherIcon.js";
 import FormattedTime from "./FormattedTime.js";
+import WeatherIcon from "./WeatherIcon.js";
 import "./Weather.css";
 
 export default function WeatherInfo(props) {
@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
           timezone={props.data.timezone}
         />{" "}
       </div>
-      <div className="temperature-container">
+      <div className="current-icon-and-temperature">
         <WeatherIcon
           code={props.data.icon}
           size={53}
@@ -28,7 +28,6 @@ export default function WeatherInfo(props) {
         </span>
         <span className="unit">°C</span>
       </div>
-
       <div className="current-weather-description">
         {props.data.description}
       </div>
