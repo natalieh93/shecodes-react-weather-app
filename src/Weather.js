@@ -1,29 +1,11 @@
 import React from "react";
 import "./Weather.css"
+import Search from "./Search.js";
 
 export default function Weather() {
   return (
     <div>
-      <form>
-        <div className="row">
-          <div className="col-9">
-            <input
-              type="search"
-              className="form-control search-input"
-              placeholder="Search for a city ..."
-              autocomplete="off"
-            />
-          </div>
-          <div className="col-3 p-0">
-            <input
-              type="submit"
-              className="btn btn-light"
-              id="submit-btn"
-              value="Search"
-            />
-          </div>
-        </div>
-      </form>
+    <Search/>
       <div className="current-location">Vienna, AT</div>
       <div className="current-date">Local time: Sun 13. Jun, 10:02</div>
       <div className="current-temperature">19°C</div>
