@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from 'axios';
+import Loader from "react-loader-spinner";
+
 
 import WeatherForecastDay from "./WeatherForecastDay.js"
 
@@ -42,6 +44,12 @@ export default function WeatherForecastPreview(props) {
   
     axios.get(apiUrl).then(handleResponse);
 
-    return "Loading..."
+    return <Loader
+    type="ThreeDots"
+    color="#61d9fb"
+    height={100}
+    width={100}
+    timeout={3000} />
   }
-}
+  }
+
