@@ -14,7 +14,8 @@ export default function WeatherApp() {
       <footer>
         <img src={logo} className="React-logo" alt="logo" />
         <span>
-          This project was coded by Natalie Hood and is open-sourced on Github.
+          This project was coded by <a href="https://www.linkedin.com/in/natalie-hood-4b088a10b/" target="_blank" rel="noopener noreferrer" className="linkedin-link"><strong> Natalie Hood</strong>
+          </a> and is <a href="https://github.com/natalieh93/shecodes-react-weather-app" target="_blank" rel="noopener noreferrer" className="github-link"><strong>open-sourced</strong></a> on Github.
         </span>
       </footer>
     </div>

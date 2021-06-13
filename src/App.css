@@ -41,3 +41,15 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+.linkedin-link,
+.github-link {
+  color: #2eb6db;
+  text-decoration: none;
+}
+
+.linkedin-link:hover,
+.github-link:hover {
+  color: #54cbec;
+  text-decoration: underline;
+}
