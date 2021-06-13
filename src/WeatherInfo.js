@@ -1,12 +1,13 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon.js";
 import "./Weather.css";
+import FormattedTime from "./FormattedTime.js";
 
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="current-location">{props.data.city}, {props.data.country}</div>
-      <div className="current-date">Local time: Sun 13. Jun, 10:02</div>
+      <div className="current-local-time"> <FormattedTime time={props.data.date} timezone={props.data.timezone} /> </div>
       <div className="temperature-container">
           <WeatherIcon code={props.data.icon} size={53}  alt={props.data.description} />
           <span className="current-temperature">{""}
