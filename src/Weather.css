@@ -14,7 +14,6 @@
   padding: 2px;
   text-align: center;
 }
-
 .current-temperature {
   font-size: 55px;
   font-weight: 400;
@@ -40,6 +39,15 @@
   border: 1px solid #61d9fb;
   color: #ffffff;
   padding: 10px;
+}
+
+.unit {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 19px;
+  left: 2px;
 }
 
 form {

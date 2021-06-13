@@ -1,11 +1,16 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon.js";
 
-export default function WeatherInfo() {
+export default function WeatherInfo(props) {
   return (
-    <div>
+    <div className="WeatherInfo">
       <div className="current-location">Vienna, AT</div>
       <div className="current-date">Local time: Sun 13. Jun, 10:02</div>
-      <div className="current-temperature">19°C</div>
+      <div className="temperature-container">
+          <WeatherIcon code={props.data.icon}  />
+          <span className="current-temperature">19</span><span className="unit">°C</span>
+          </div>
+   
       <div className="current-weather-description">Clear Sky</div>
       <div className="row current-weather-details">
         <div className="col-4">
