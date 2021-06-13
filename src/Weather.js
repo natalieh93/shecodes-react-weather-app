@@ -15,7 +15,17 @@ function handleResponse(response) {
 setWeatherData({
     ready: true,
     city: response.data.name,
+    country: response.data.sys.country,
+    description: response.data.weather[0].description,
+    humidity: response.data.main.humidity,
     icon: response.data.weather[0].icon,
+    pressure: response.data.main.pressure,
+
+    temperature: response.data.main.temp,
+    wind: response.data.wind.speed,
+
+
+
 });
 }
 
