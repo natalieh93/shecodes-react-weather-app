@@ -5,7 +5,7 @@ import "./Weather.css";
 import "./Search.css";
 import WeatherInfo from "./WeatherInfo.js";
 import Loader from "react-loader-spinner";
-
+import WeatherForecastPreview from "./WeatherForecastPreview.js"
 
 export default function Weather(props) {
 
@@ -18,6 +18,7 @@ function handleResponse(response) {
 setWeatherData({
     ready: true,
     city: response.data.name,
+    coordinates: response.data.coord,
     country: response.data.sys.country,
     date: new Date(response.data.dt * 1000),
     description: response.data.weather[0].description,
@@ -71,6 +72,7 @@ function search() {
         </div>
       </form>
       <WeatherInfo data={weatherData} />
+       <WeatherForecastPreview coordinates={weatherData.coordinates}/>
     </div>
   );
 } else {
