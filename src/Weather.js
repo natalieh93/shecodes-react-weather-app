@@ -4,6 +4,7 @@ import axios from "axios";
 import "./Weather.css";
 import "./Search.css";
 import WeatherInfo from "./WeatherInfo.js";
+import Loader from "react-loader-spinner";
 
 
 export default function Weather(props) {
@@ -74,6 +75,11 @@ function search() {
   );
 } else {
     search();
-    return "Loading ...";
+    return <Loader
+    type="ThreeDots"
+    color="#61d9fb"
+    height={100}
+    width={100}
+    timeout={3000} />
   }
 }
