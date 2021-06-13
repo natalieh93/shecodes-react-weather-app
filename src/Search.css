@@ -1,0 +1,27 @@
+form {
+  padding: 25px;
+}
+
+.form-control {
+  font-family: "Poppins", sans-serif;
+  border-radius: 0px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#submit-btn {
+  background: #61d9fb;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100px;
+}
+
+#submit-btn:hover {
+  background: white;
+  color: #61d9fb;
+  font-weight: 300;
+  transition: all 200ms ease-in-out;
+}

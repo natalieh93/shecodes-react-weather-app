@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 
 import "./Weather.css";
+import "./Search.css";
 import WeatherInfo from "./WeatherInfo.js";
 
 export default function Weather(props) {
@@ -20,12 +21,8 @@ setWeatherData({
     humidity: response.data.main.humidity,
     icon: response.data.weather[0].icon,
     pressure: response.data.main.pressure,
-
     temperature: response.data.main.temp,
     wind: response.data.wind.speed,
-
-
-
 });
 }
 
@@ -47,8 +44,7 @@ function search() {
 
   if (weatherData.ready)
 { return (
-    <div>
-      <div>
+      <div className="WeatherApp-content">
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-9">
@@ -70,7 +66,6 @@ function search() {
           </div>
         </div>
       </form>
-    </div>
       <WeatherInfo data={weatherData} />
     </div>
   );

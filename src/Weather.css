@@ -1,6 +1,10 @@
+.WeatherInfo {
+  padding: 5px 20px;
+}
+
 .current-location {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 27.5px;
+  font-weight: 500;
   margin-top: -5px;
   margin-bottom: -48px;
   text-align: center;
@@ -10,35 +14,15 @@
 .current-date {
   font-weight: 100;
   line-height: 24px;
-  margin: 45px 0 10px;
+  margin: 44px 0 10px;
   padding: 2px;
   text-align: center;
 }
+
 .current-temperature {
   font-size: 55px;
-  font-weight: 400;
-}
-
-.current-weather-description {
-  color: #61d9fb;
-  font-size: 19px;
-  font-weight: 200;
-  margin: 5px 0 -25px;
-  text-transform: uppercase;
-}
-
-.current-weather-details {
-  font-size: 16px;
-  font-weight: 200;
-  line-height: 25px;
-  margin: -55px 0 0;
-  padding: 60px;
-}
-
-.current-weather-details .col-4 p {
-  border: 1px solid #61d9fb;
-  color: #ffffff;
-  padding: 10px;
+  font-weight: 500;
+  margin-left: 15px;
 }
 
 .unit {
@@ -46,33 +30,26 @@
   font-weight: 300;
   letter-spacing: 1px;
   position: relative;
-  bottom: 19px;
+  bottom: 20px;
   left: 2px;
 }
 
-form {
-  padding: 30px;
-}
-
-.form-control {
-  border-radius: 0px;
-  font-size: 15px;
-  font-weight: 300;
-}
-
-#submit-btn {
-  background: #61d9fb;
-  border: none;
-  border-radius: 0px;
-  color: white;
-  font-size: 16px;
-  font-weight: 300;
-  width: 100px;
-}
-
-#submit-btn:hover {
-  background: white;
+.current-weather-description {
   color: #61d9fb;
-  font-weight: 300;
-  transition: all 200ms ease-in-out;
+  font-size: 19px;
+  font-weight: 200;
+  margin: 2px 0 25px;
+  text-transform: uppercase;
+}
+
+.current-weather-details {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 25px;
+}
+
+.current-weather-details .col-4 p {
+  border: 1px solid #61d9fb;
+  color: #ffffff;
+  padding: 10px;
 }
