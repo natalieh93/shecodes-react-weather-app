@@ -3,10 +3,8 @@
 }
 
 .current-location {
-  font-size: 27.5px;
+  font-size: 35px;
   font-weight: 500;
-  margin-top: -5px;
-  margin-bottom: -48px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -14,7 +12,7 @@
 .current-local-time {
   font-weight: 100;
   line-height: 24px;
-  margin: 44px 0 10px;
+  margin: -4px 0 10px;
   padding: 2px;
   text-align: center;
 }
@@ -30,14 +28,14 @@
   font-weight: 300;
   letter-spacing: 1px;
   position: relative;
-  bottom: 20px;
+  bottom: 19px;
   left: 2px;
 }
 
 .current-weather-description {
   color: #61d9fb;
   font-size: 19px;
-  font-weight: 200;
+  font-weight: 300;
   margin: 2px 0 25px;
   text-transform: uppercase;
 }
@@ -46,6 +44,7 @@
   font-size: 16px;
   font-weight: 200;
   line-height: 25px;
+  padding: 0 40px;
 }
 
 .current-weather-details .col-4 p {

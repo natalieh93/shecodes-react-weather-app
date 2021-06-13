@@ -2,7 +2,7 @@ footer {
   color: black;
   font-size: 14px;
   font-weight: 200;
-  margin-top: -20px;
+  margin-top: -18px;
 }
 
 .WeatherApp {
@@ -14,7 +14,7 @@ footer {
   background: #344e7c;
   box-shadow: 5px 10px 10px 3px #495ea3bd;
   height: auto;
-  margin: 50px auto;
+  margin: 40px auto;
   max-width: 550px;
   text-align: center;
 }

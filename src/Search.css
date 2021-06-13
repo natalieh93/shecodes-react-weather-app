@@ -1,16 +1,15 @@
 form {
-  padding: 25px;
+  padding: 28px 15px;
 }
 
 .form-control {
   font-family: "Poppins", sans-serif;
-  border-radius: 0px;
   font-size: 15px;
   font-weight: 300;
 }
 
 #submit-btn {
-  background: #61d9fb;
+  background: #54cbec;
   border: none;
   border-radius: 0px;
   color: white;
