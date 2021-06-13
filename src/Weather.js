@@ -5,6 +5,7 @@ import "./Weather.css";
 import "./Search.css";
 import WeatherInfo from "./WeatherInfo.js";
 
+
 export default function Weather(props) {
 
 let [weatherData, setWeatherData] = useState({ ready: false });
@@ -17,11 +18,13 @@ setWeatherData({
     ready: true,
     city: response.data.name,
     country: response.data.sys.country,
+    date: new Date(response.data.dt * 1000),
     description: response.data.weather[0].description,
     humidity: response.data.main.humidity,
     icon: response.data.weather[0].icon,
     pressure: response.data.main.pressure,
     temperature: response.data.main.temp,
+    timezone: response.data.timezone,
     wind: response.data.wind.speed,
 });
 }
