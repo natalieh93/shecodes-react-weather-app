@@ -1,6 +1,6 @@
 footer {
   color: black;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 200;
   margin-top: -18px;
 }
@@ -11,7 +11,7 @@ footer {
 }
 
 .WeatherApp-container {
-  background: #344e7c;
+  background: #324974;
   box-shadow: 5px 10px 10px 3px #495ea3bd;
   height: auto;
   margin: 40px auto;
@@ -20,7 +20,7 @@ footer {
 }
 
 .WeatherApp-content {
-  padding: 3px 10px;
+  padding: 5px 10px;
 }
 
 .React-logo {
