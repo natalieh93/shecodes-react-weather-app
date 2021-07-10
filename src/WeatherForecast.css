@@ -1,20 +1,16 @@
 .WeatherForecast {
-  font-size: 16px;
-  margin-top: 9px;
-  margin-bottom: 20px;
-  padding: 20px;
+  font-size: 13px;
+  margin-top: -70px;
+  margin-bottom: 0px;
+  padding: 40px 10px;
   text-align: center;
-}
-
-.WeatherForecast .col {
-  padding: 5px;
 }
 
 .WeatherForecast-day {
   font-weight: 300;
   margin-top: -20px;
   margin-bottom: 18px;
-  padding: 2px 0;
+  padding: 3px 0;
 }
 
 .WeatherForecast-temperatures {

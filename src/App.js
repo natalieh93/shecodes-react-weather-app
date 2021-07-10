@@ -7,9 +7,9 @@ export default function WeatherApp() {
   return (
     <div className="WeatherApp">
       <div className="WeatherApp-container">
-        <div className="WeatherApp-content">
+      
           <Weather defaultCity="Vienna" />
-        </div>
+     
       </div>
       <footer>
         <img src={logo} className="React-logo" alt="logo" />

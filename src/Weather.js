@@ -19,8 +19,8 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
+      feels_like:  response.data.main.feels_like,
       icon: response.data.weather[0].icon,
-      pressure: response.data.main.pressure,
       temperature: response.data.main.temp,
       timezone: response.data.timezone,
       wind: response.data.wind.speed,
@@ -34,6 +34,10 @@ export default function Weather(props) {
 
   function updateCity(event) {
     setCity(event.target.value);
+  }
+
+    function handleClick(event) {
+    handleSubmit();
   }
 
   function search() {
@@ -58,13 +62,18 @@ export default function Weather(props) {
               />
             </div>
             <div className="col-3 p-0">
-              <input
-                type="submit"
-                className="btn btn-light"
-                id="submit-btn"
-                value="Search"
-              />
+              <button
+                class="btn btn-sm btn-primary-outline search-city-button"
+                id="search-city-button"
+                type="button"
+                onClick={handleClick}
+              >
+                <i class="fas fa-search"></i>
+              </button>
             </div>
+
+         
+         
           </div>
         </form>
         <WeatherInfo data={weatherData} />

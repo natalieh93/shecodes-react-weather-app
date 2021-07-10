@@ -20,6 +20,7 @@ export default function WeatherForecastPreview(props) {
   if (loaded) {
     return (
       <div className="WeatherForecast">
+    
         <div className="row">
           {" "}
           {forecast.map(function (dailyForecast, index) {

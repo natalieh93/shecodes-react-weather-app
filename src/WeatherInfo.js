@@ -17,11 +17,13 @@ export default function WeatherInfo(props) {
         />{" "}
       </div>
       <div className="current-icon-and-temperature">
-        <WeatherIcon
+        
+        <div className="current-icon"><WeatherIcon
           code={props.data.icon}
           size={53}
           alt={props.data.description}
         />
+        </div>
         <span className="current-temperature">
           {""}
           {Math.round(props.data.temperature)}
@@ -31,24 +33,24 @@ export default function WeatherInfo(props) {
       <div className="current-weather-description">
         {props.data.description}
       </div>
-      <div className="row current-weather-details">
-        <div className="col-4">
-          <p>
-            <strong>Humidity</strong> <br />
+      <div className=" current-weather-details">
+        <ul>
+          <li className="real-feel">
+            <i className="fas fa-thermometer-three-quarters"></i>
+            <strong> &nbsp; Real feel:</strong>{" "}
+            {Math.round(props.data.feels_like)}°
+          </li>
+
+          <li className="humidity">
+            <i className="fas fa-tint"></i>&nbsp;
+            <strong>Humidity:</strong>{" "}
             {Math.round(props.data.humidity)}%
-          </p>
-        </div>
-        <div className="col-4">
-          <p>
-            <strong>Wind</strong> <br /> {Math.round(props.data.wind)} mph
-          </p>
-        </div>
-        <div className="col-4">
-          <p>
-            <strong>Pressure</strong>
-            <br /> {Math.round(props.data.pressure)} hPa
-          </p>
-        </div>
+          </li>
+          <li className="wind">
+            <i className="fas fa-wind"></i> <strong>Wind:</strong>{" "}
+            {Math.round(props.data.wind)} mph
+          </li>
+        </ul>
       </div>
     </div>
   );
