@@ -1,16 +1,9 @@
-body {
-  background-attachment: fixed;
-  background-image: linear-gradient(180deg, #426dbd 0%, #4c6fac77 75%);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 footer {
   color: black;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 200;
-  margin-top: 20px;
+  line-height: 15px;
+  margin-top: 25px;
   text-align: center;
   text-decoration: none;
 }
@@ -20,24 +13,28 @@ footer {
   font-size: 10px;
   color: white;
   margin: 30px auto;
-  padding: 4px;
   max-height: 610px;
   max-width: 500px;
+  padding: 4x;
   text-align: center;
 }
 
 .WeatherApp-container {
   background-color: #163d80;
   background-image: linear-gradient(315deg, #09214f 0%, #385fa477 74%);
-  border-radius: 20px;
   box-shadow: 5px 10px 10px 5px rgba(15, 15, 15);
   max-height: 610px;
   max-width: 500px;
+  padding: 5px;
   text-align: center;
 }
 
 .WeatherApp-content {
   padding: 10px 10px;
+}
+
+.Swap-button {
+  height: 14px;
 }
 
 .React-logo {
@@ -60,13 +57,15 @@ footer {
 }
 
 .linkedin-link,
-.github-link {
+.github-link,
+.dictionary-app-link {
   color: black;
+  font-weight: 300;
   text-decoration: none;
-  font-weight: 400;
 }
 
 .linkedin-link:hover,
-.github-link:hover {
+.github-link:hover,
+.dictionary-app-link:hover {
   color: black;
 }

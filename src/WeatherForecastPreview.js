@@ -20,14 +20,19 @@ export default function WeatherForecastPreview(props) {
   if (loaded) {
     return (
       <div className="WeatherForecast">
+        <div className="WeatherForecast-header">
+          Next 5 Days 
+        </div>
+        <hr/>
     
         <div className="row">
           {" "}
           {forecast.map(function (dailyForecast, index) {
-            if (index < 5) {
+            if (index < 6 && index > 0) {
               return (
                 <div className="col" key={index}>
-                  <WeatherForecastDay data={dailyForecast} />
+                  <WeatherForecastDay data={dailyForecast}
+                   />
                 </div>
               );
             } else {

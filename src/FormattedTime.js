@@ -7,29 +7,29 @@ export default function FormattedTime(props) {
     localTime.getSeconds() + localTimeOffset + props.timezone
   );
 
-  let days = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let localDay = days[localTime.getDay()];
 
   let date = localTime.getDate();
 
   let months = [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
+    "January",
+    "February",
+    "March",
+    "April",
     "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
   ];
 
   let month = months[localTime.getMonth()];
 
-  let year = localTime.getFullYear();
+
 
   let localHours = localTime.getHours();
   if (localHours < 10) {
@@ -43,7 +43,7 @@ export default function FormattedTime(props) {
 
   return (
     <div className="FormattedTime">
-      Local time: {localDay}, {date}. {month} {year} | {localHours}:
+      Local time: {localDay}, {date}. {month}, {localHours}:
       {localMinutes}
     </div>
   );

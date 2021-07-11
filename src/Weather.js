@@ -22,6 +22,8 @@ export default function Weather(props) {
       feels_like:  response.data.main.feels_like,
       icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
+      temp_max: response.data.main.temp_max,
+      temp_min: response.data.main.temp_min,
       timezone: response.data.timezone,
       wind: response.data.wind.speed,
     });
@@ -34,10 +36,6 @@ export default function Weather(props) {
 
   function updateCity(event) {
     setCity(event.target.value);
-  }
-
-    function handleClick(event) {
-    handleSubmit();
   }
 
   function search() {
@@ -57,18 +55,17 @@ export default function Weather(props) {
                 type="search"
                 className="form-control search-input"
                 placeholder="Search for a city here"
-                autocomplete="off"
+                autoComplete="off"
                 onChange={updateCity}
               />
             </div>
             <div className="col-3 p-0">
               <button
-                class="btn btn-sm btn-primary-outline search-city-button"
+                className="btn btn-sm btn-primary-outline search-city-button"
                 id="search-city-button"
-                type="button"
-                onClick={handleClick}
+                type="submit"
               >
-                <i class="fas fa-search"></i>
+                <i className="fas fa-search"></i>
               </button>
             </div>
 

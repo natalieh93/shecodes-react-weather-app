@@ -1,61 +1,69 @@
-.WeatherInfo .current-location {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 30px;
-  margin-top: 5px;
+.WeatherInfo .col-5 {
   text-align: center;
 }
 
 .WeatherInfo .current-local-time {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 100;
-  margin-top: 3px;
+  margin-top: 8px;
   text-align: center;
 }
 
-.WeatherInfo .current-icon-and-temperature {
+.WeatherInfo .current-location {
   color: white;
-  display: block;
-  font-size: 45px;
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-
-.WeatherInfo .current-icon {
-  margin-top: 20px;
-  margin-bottom: -14px;
-}
-
-.WeatherInfo .unit {
-  font-size: 20px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  position: relative;
-  bottom: 18px;
-  left: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin: 20px 0 -10px;
+  text-align: center;
 }
 
 .WeatherInfo .current-weather-description {
   color: #61d9fb;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  margin: 10px 0px 10px;
-  text-align: center;
+  margin-top: 25px;
 }
 
 .current-weather-description:first-letter {
   text-transform: capitalize;
 }
 
+.WeatherInfo .current-icon {
+  margin: 50px 0 0px;
+  padding-left: 50px;
+}
+
+.WeatherInfo .current-temperature {
+  font-size: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.WeatherInfo .unit {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 22px;
+  left: 7px;
+}
+
+.WeatherInfo .max-and-min-temperatures {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 28px;
+  margin-top: 15px;
+  text-align: center;
+}
+
 .WeatherInfo .current-weather-details ul {
   color: white;
   font-size: 11px;
-  font-weight: 200;
-  line-height: 22px;
+  font-weight: 100;
+  line-height: 20px;
   list-style: none;
-  text-align: right;
   position: relative;
-  bottom: 110px;
-  right: 25px;
+  left: 315px;
+  bottom: 115px;
 }
