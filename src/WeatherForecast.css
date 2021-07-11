@@ -1,12 +1,12 @@
 hr {
   color: white;
-  margin: -30px 0 40px 0px;
-  max-width: 460px;
+  margin: -30px 0 40px 10px;
+  max-width: 450px;
 }
 
 .WeatherForecast {
-  font-size: 15px;
-  margin: -80px 0 10px;
+  font-size: 14px;
+  margin: -80px 0 0px;
   padding: 40px 20px;
   text-align: center;
 }
@@ -22,12 +22,10 @@ hr {
 
 .WeatherForecast-day {
   font-weight: 300;
-  font-size: 12px;
   margin: -20px 0 15px;
 }
 
 .WeatherForecast-temperatures {
-  font-size: 13px;
   margin-top: 10px;
   margin-bottom: -20px;
 }
@@ -44,13 +42,18 @@ hr {
 
 @media (max-width: 700px) {
   .WeatherForecast {
-    font-size: 11px;
+    font-size: 12px;
+    padding: 10px 0px;
     margin-bottom: 20px;
-    padding: 18px 0px;
   }
 
   .WeatherForecast-header {
     font-size: 12px;
     margin-top: 10px;
+  }
+
+  hr {
+    margin: -30px 0 40px 12px;
+    max-width: 450px;
   }
 }
