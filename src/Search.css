@@ -4,11 +4,12 @@ form {
 
 form .form-control {
   border: 1px solid rgb(56, 56, 56);
+  border-radius: 0;
   box-shadow: 3px 3px 3px 2px rgb(56, 56, 56);
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   line-height: 25px;
-  width: 120%;
+  width: 118%;
 }
 
 form .search-input {
@@ -20,17 +21,17 @@ form .search-input {
 
 .search-city-button {
   background-color: transparent;
-  border-color: white;
   color: white;
   font-size: 18px;
   padding: 5px 10px;
   position: relative;
-  left: 30px;
+  left: 25px;
 }
 
 .search-city-button:hover {
   background-color: transparent;
   border-color: white;
+  border-radius: 0;
   color: white;
   transition: all 200ms ease-in-out;
 }

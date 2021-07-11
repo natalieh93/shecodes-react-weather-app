@@ -32,7 +32,7 @@ export default function WeatherApp() {
             Natalie Hood{" "}
           </a>
         </span>
-        &nbsp; | &nbsp; &nbsp;
+        <br/>
         <img src={swapbutton} className="Swap-button" alt="swap-button" />
         &nbsp; &nbsp;
         <span>
@@ -42,7 +42,7 @@ export default function WeatherApp() {
             rel="noopener noreferrer"
             className="dictionary-app-link"
           >
-            <strong> React Dictionary App</strong>
+          React Dictionary App
           </a>
         </span>
       </footer>

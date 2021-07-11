@@ -58,16 +58,16 @@ export default function WeatherInfo(props) {
         <ul>
           <li className="real-feel">
             <i className="fas fa-thermometer-three-quarters"></i>
-            <strong> &nbsp; Real feel:</strong>{" "}
-            {Math.round(props.data.feels_like)}°
+           &nbsp; Real feel: {" "}
+             <strong> {Math.round(props.data.feels_like)}°</strong>
           </li>
           <li className="humidity">
             <i className="fas fa-tint"></i>&nbsp;
-            <strong>Humidity:</strong> {Math.round(props.data.humidity)}%
+            Humidity: <strong>{Math.round(props.data.humidity)}%</strong>
           </li>
           <li className="wind">
-            <i className="fas fa-wind"></i> <strong>Wind:</strong>{" "}
-            {Math.round(props.data.wind)} km/h
+            <i className="fas fa-wind"></i> Wind:{" "}
+            <strong>{Math.round(props.data.wind)} km/h</strong>
           </li>
         </ul>
       </div>

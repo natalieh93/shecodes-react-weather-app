@@ -29,6 +29,8 @@ export default function FormattedTime(props) {
 
   let month = months[localTime.getMonth()];
 
+  let year = localTime.getFullYear();
+
 
 
   let localHours = localTime.getHours();
@@ -43,7 +45,7 @@ export default function FormattedTime(props) {
 
   return (
     <div className="FormattedTime">
-      Local time: {localDay}, {date}. {month}, {localHours}:
+     {localDay}, {date} {month} {year}&nbsp; |&nbsp; Local time: {localHours}:
       {localMinutes}
     </div>
   );
