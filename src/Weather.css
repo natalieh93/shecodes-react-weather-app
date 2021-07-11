@@ -30,7 +30,7 @@
 
 .WeatherInfo .current-icon {
   position: relative;
-  top: 50px;
+  top: 60px;
   left: 25px;
 }
 
@@ -67,11 +67,55 @@
   line-height: 19px;
   list-style: none;
   position: relative;
-  left: 332px;
-  bottom: 118px;
+  left: 315px;
+  bottom: 112px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
+  .WeatherInfo .current-local-time {
+    font-size: 13px;
+  }
+
+  .WeatherInfo .current-location {
+    font-size: 20px;
+  }
+
+  .WeatherInfo .current-icon {
+    position: relative;
+    top: 60px;
+    left: 30px;
+  }
+
+  .WeatherInfo .current-temperature {
+    font-size: 40px;
+  }
+
+  .WeatherInfo .unit {
+    position: relative;
+    bottom: 14px;
+    left: 5px;
+  }
+
+  .WeatherInfo .max-and-min-temperatures {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .WeatherInfo .current-weather-description {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+
+  .WeatherInfo .current-weather-details ul {
+    font-size: 11px;
+    line-height: 18px;
+    position: relative;
+    left: 310px;
+    bottom: 109px;
+  }
+}
+
+@media (max-width: 414px) {
   .WeatherInfo .current-local-time {
     font-size: 13px;
   }
