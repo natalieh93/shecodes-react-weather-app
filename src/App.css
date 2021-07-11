@@ -71,13 +71,11 @@ footer {
 
 @media (max-width: 800px) {
   .WeatherApp {
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 20px auto;
   }
 
   .WeatherApp-container {
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 20px auto;
   }
 
   .Swap-button {
