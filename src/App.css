@@ -68,3 +68,27 @@ footer {
 .dictionary-app-link:hover {
   color: black;
 }
+
+@media (max-width: 800px) {
+  .WeatherApp {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .WeatherApp-container {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .Swap-button {
+    height: 12px;
+  }
+
+  .React-logo {
+    height: 20px;
+  }
+
+  footer {
+    font-size: 11px;
+  }
+}
