@@ -30,8 +30,8 @@
 
 .WeatherInfo .current-icon {
   position: relative;
-  top: 60px;
-  left: 25px;
+  top: 54px;
+  left: 30px;
 }
 
 .WeatherInfo .current-temperature {
@@ -54,7 +54,7 @@
   font-size: 14px;
   font-weight: 200;
   line-height: 28px;
-  margin-top: 25px;
+  margin-top: 28px;
   text-align: center;
   position: relative;
   right: 13px;
@@ -82,8 +82,8 @@
 
   .WeatherInfo .current-icon {
     position: relative;
-    top: 60px;
-    left: 30px;
+    top: 50px;
+    left: 20px;
   }
 
   .WeatherInfo .current-temperature {

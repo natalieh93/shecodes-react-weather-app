@@ -1,28 +1,28 @@
 hr {
   color: white;
-  margin: -30px 0 40px 10px;
+  margin: -30px 10px 40px 17px;
   max-width: 450px;
 }
 
 .WeatherForecast {
   font-size: 14px;
   margin: -80px 0 0px;
-  padding: 40px 20px;
+  padding: 40px 18px;
   text-align: center;
 }
 
 .WeatherForecast-header {
   font-size: 15px;
   font-weight: 400;
-  margin: -10px 0 40px;
-  padding-left: 14px;
+  margin: -15px 0 40px;
+  padding-left: 18px;
   text-align: left;
   text-transform: uppercase;
 }
 
 .WeatherForecast-day {
   font-weight: 300;
-  margin: -20px 0 15px;
+  margin: -16px 0 15px;
 }
 
 .WeatherForecast-temperatures {
@@ -50,10 +50,29 @@ hr {
   .WeatherForecast-header {
     font-size: 12px;
     margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  hr {
+    margin: -30px 20px 40px 20px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 414px) {
+  .WeatherForecast {
+    font-size: 11.2px;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+  }
+
+  .WeatherForecast-header {
+    font-size: 12px;
+    padding-left: 30px;
   }
 
   hr {
     margin: -30px 0 40px 12px;
-    max-width: 450px;
+    max-width: 340px;
   }
 }
