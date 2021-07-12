@@ -13,7 +13,7 @@ footer {
   color: white;
   margin: 30px auto;
   max-height: 610px;
-  max-width: 525px;
+  max-width: 500px;
   padding: 4px;
   text-align: center;
 }
@@ -73,7 +73,7 @@ footer {
   .WeatherApp {
     margin: 30px auto;
     max-height: 610px;
-    max-width: 520px;
+    max-width: 500px;
     padding: 4px;
   }
 
