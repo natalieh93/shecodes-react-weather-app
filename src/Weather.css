@@ -11,7 +11,7 @@
 
 .WeatherInfo .current-location {
   color: white;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 400;
   margin: 20px 0 -10px;
   text-align: center;
@@ -31,7 +31,7 @@
 .WeatherInfo .current-icon {
   position: relative;
   top: 54px;
-  left: 27px;
+  left: 30px;
 }
 
 .WeatherInfo .current-temperature {
@@ -51,7 +51,7 @@
 }
 
 .WeatherInfo .max-and-min-temperatures {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 200;
   line-height: 28px;
   margin-top: 28px;
@@ -62,12 +62,12 @@
 
 .WeatherInfo .current-weather-details ul {
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
   position: relative;
-  left: 315px;
+  left: 302px;
   bottom: 112px;
 }
 
