@@ -31,7 +31,7 @@
 .WeatherInfo .current-icon {
   position: relative;
   top: 54px;
-  left: 30px;
+  left: 27px;
 }
 
 .WeatherInfo .current-temperature {
@@ -83,7 +83,7 @@
   .WeatherInfo .current-icon {
     position: relative;
     top: 50px;
-    left: 20px;
+    left: 16px;
   }
 
   .WeatherInfo .current-temperature {
@@ -110,7 +110,7 @@
     font-size: 11px;
     line-height: 18px;
     position: relative;
-    left: 310px;
+    left: 315px;
     bottom: 109px;
   }
 }
@@ -127,7 +127,7 @@
   .WeatherInfo .current-icon {
     position: relative;
     top: 50px;
-    left: 30px;
+    left: 20px;
   }
 
   .WeatherInfo .current-temperature {
@@ -142,7 +142,7 @@
 
   .WeatherInfo .max-and-min-temperatures {
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .WeatherInfo .current-weather-description {
@@ -154,7 +154,7 @@
     font-size: 11px;
     line-height: 18px;
     position: relative;
-    left: 242px;
+    left: 243px;
     bottom: 108px;
   }
 }
